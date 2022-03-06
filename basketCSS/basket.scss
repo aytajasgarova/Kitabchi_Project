@@ -99,16 +99,17 @@ a.pink-a {
                     font-family: 'regular';
                 }
                 .pro-count{
-                    .frm-cont{
-                    padding: 5px;
-                    border: none;
-                    background-color: $dropdown-menu;
-                    border-radius: 50px !important;
-                    width: 75px;
-                    color: white;
-                    &:focus{
-                        outline: none;
-                    }
+                    width: 25%;
+                   .count-input {
+                       border-radius: 20px; 
+                       border: none;
+                       border: 1px solid gray;
+                       padding-left: 15px;
+                       &:active, &:focus {
+                           outline: none;
+                           box-shadow: none;
+                       }
+                   }
                 }
                 }
                 i{
@@ -229,7 +230,7 @@ a.pink-a {
         background-color: $big-circle;
         border-radius: 50%;
     }
-}
+
 
 @media only screen and (max-width:992px) {
     #basket {
